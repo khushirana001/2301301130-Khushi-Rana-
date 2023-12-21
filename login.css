@@ -1,0 +1,43 @@
+.p{
+    
+    color:#040101;
+    
+    
+    width:90%;
+    height:50px;
+}
+.box{
+    
+    background-color: #f4f1f1;
+    width:1000px;
+    height:30px;
+    text-align: center;
+    text-decoration: solid;
+}
+.box1{
+    
+    background-color:white;
+    padding:100px;
+    margin:0 auto;
+    height:320px;
+    float:left;
+    
+}
+.box2{
+    
+    background-color:white;
+    padding: 10px;
+    margin:0 auto;
+ height:500px;
+    float: left;
+    width:480px;
+}
+.pp{
+    
+    background-color: #f2f2f2;
+    margin:0 auto;
+    padding:90px;
+    box-shadow:5px 5px 5px 5px rgb(227, 216, 213) ;
+    text-decoration: underline ;
+    font-family: 'Courier New', Courier, monospace;
+}
