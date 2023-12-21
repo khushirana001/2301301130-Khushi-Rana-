@@ -1,0 +1,358 @@
+.container{
+    border:1px solid black;
+    background-color: rgb(86, 143, 183);
+    /*background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Hd-Laptop-wallpapers.jpg)*/;
+    height:50px;
+    width:100%;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    color:darkslategray;
+    font-size: 20px;
+}
+input{
+    height:25px;
+    
+}
+button{
+    height:30px;
+    background-color:rgb(76, 101, 101);
+    color:white;
+    margin-left: 500px;
+    
+}
+.login{ 
+    height:300px;
+    width:50%;
+    margin-left: 380px;
+    margin-top: 120px;
+}
+.dashboard{
+    width:100%;
+    border: 1px solid black;
+    height:500px;
+    background-image: url(data:image/jpeg;base64,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);
+    margin-top: 5px;
+    
+}
+.footer{
+    width:100%;
+    border:1px solid black;
+    height: 500px;
+    background-color: rgb(147, 192, 210);
+}
+h3{
+    margin-left: 550px;
+    margin-top: 50px;
+    color: darkslategray;
+    font-size: 25px;
+
+}
+p{
+    margin-left: 400px;
+    color: darkslategray;
+}
+h4{
+    margin-left: 100px;
+    color:darkslategray;
+    font-size: 25px;
+}
+h5{
+    margin-left: 100px;
+    color:darkslategray;
+    font-size: 15px;
+}
+.info{
+    float:left;
+}
+.help{
+    margin-left: 900px;
+    margin-top: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+li a{
+    text-decoration: none;
+}
+
+
+
+.cont{
+    width:100%;
+    display: flex;
+}
+.line{
+    height:0;
+    width:900px;
+    border:1px solid lightslategray;
+    float:left;
+    margin-top:20px;
+
+}
+.box{
+    background-color: rgb(174, 140, 140);
+    border:2px solid rgb(39, 29, 29);
+    height:20px;
+    width:70px;
+    margin-top: 9px;
+    text-align: center;
+    
+}
+.lines{
+    height:0;
+    width:900px;
+    border: 1px solid lightslategray;
+    float:left;
+    margin-top:20px;
+    
+
+}
+
+.box2{
+    width:92%;
+    border: 2px solid grey;
+    height:750px;
+    margin-left: 40px;
+}
+.buttons{
+    width:150px;
+    height:40px;
+    background-color:darkslategray;
+    color: white;
+    margin-top: 20px;
+    margin-left:950px;
+}
+.product{
+     
+     color: burlywood;
+     margin-left:30px;
+     
+}
+.orange_line{
+    width:150px;
+    height:0;
+    border: 2px solid burlywood;
+    
+}
+.greyline{
+    height: 0;
+    width:1100px;
+    margin-left: 10px;
+    border:1px solid grey;
+
+}
+.checkbox{
+    margin-left:10px;
+    float: left;
+    padding-top:15px;
+}
+.copy{
+    color: black;
+    margin-left:30px;
+}
+.he{
+    margin-left: 270px;
+    
+}
+.browse{
+    height: 100px;
+    width:300px;
+    background-color: rgb(225, 238, 243);
+    border: 2px dotted grey;
+    margin-left: 180px;
+    float:left;
+}
+.files{
+    width:100px;
+    height:40px;
+    background-color:white;
+    margin-left: 90px;
+    margin-top: 30px;
+    border:1px solid rgb(51, 213, 205);
+    color: rgb(90, 145, 142);
+    border-radius: 2px;
+    
+}
+.images{
+    margin-left: 700px;
+    margin-top: 60px;
+
+}
+.front_image{
+    float: left;
+}
+.ho{
+    
+    margin-top: 50px;
+    padding-left:10px;
+    
+}
+input{
+    margin-left: 10px;
+
+    padding-left:10px;
+    
+}
+.riya{
+    display:flex;
+    margin-right: 100px;
+}
+.inputbox{
+   float:left;
+   
+}
+
+   
+
+.some{
+    margin-left: 10px;
+    width:20%;
+    border: 2px solid red;
+    margin-top: 40px;
+
+}
+.kth{
+float:left;
+}
+body{
+    background-color: rgb(237, 237, 237);
+    font-family:arial ;
+}
+.addpage{
+    height:270px;
+    width:97%;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+   
+}
+.line{
+    height: 0px;
+    width:100%;
+    border: 1px solid grey;
+   
+    margin-top: 30px;
+}
+.al{
+    display: flex;
+}
+.one{
+        border:none;
+        border-radius: 2px;;
+        background-color: seagreen;
+        height:23px;
+        margin-top:15px;
+        width:200px;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .two{
+        border:none;
+        background-color:  rgb(237, 237, 237);
+        height:23px;
+        color: black;
+        border-radius: 2px;
+        margin-top:15px;
+        width:200px;
+        padding-top: 5px;
+       text-align: center;
+    }
+    ._2p{
+display: flex;
+justify-content: space-evenly;
+font-size: 11px;
+font-weight: bold;
+color:grey;
+    }
+    .select{
+        display: flex;
+        padding-top: 20px;
+    }   
+    .s1 input{
+      width: 800px;
+        margin-left: 20px;
+    }
+    .s1 p{
+        margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+    }
+    .s2 input{
+       width: 400px;
+       margin-left: 10px;
+    }
+    .s2 label{
+        background-color: white;
+        width:300px;
+    }
+    .s2 p{
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+    }
+    .section{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .l2{
+margin-left: 200px;
+    }
+.l3{
+        margin-left: 200px;
+ }
+.b1{
+                background-color: seagreen;
+                border:none;
+                margin-top: 50px;
+                height: 25px;
+                width:100px;
+                margin-left: 1130px;
+                border-radius: 3px;
+        color: white;
+            }
+ .op{
+width:400px;
+background-color:white;
+}
+
+
+
+
+.cont-1{
+    height:400px;
+    width:100%;
+
+}
+.section{
+    height:100px;
+    width:100%;
+    
+}
+.right{
+    float:left;
+
+
+
+}
+.left{
+    float :left;
+    color:rgb(4, 3, 3);
+    background-color: rgb(6, 27, 8);
+}
+.cont-2{
+
+}
+.cont-left{
+    float:left;
+}
+.cont-right{
+    float:left;
+}
+
+
